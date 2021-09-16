@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+form{
+    width:500px;
+    padding:16px;
+    border-radius:10px;
+    margin:left;
+    background-color:#ccc;
+}
+
+
+form label{
+	font-weight:bold;
+	padding:3px 10px;
+	margin:9px;
+	display:list-item;
+	float: left;
+}
+
+form input,
+form select{
+    width:250px;
+	padding:5px 5px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#b1b3b3;
+	margin:8px 0;
+	float: right;
+}
+
+.submitProveedores{
+	width:250px;
+	padding:5px 5px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#b1b3b3;
+	margin:8px 0;
+	float: none;
+}

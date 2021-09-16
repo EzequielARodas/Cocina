@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <title>Ingreso de Producto</title>
+</head>
+<body>
+    <h1>Ingreso de Producto</h1>
+
+    <form action="IngresoDeProducto" >
+        <fieldset>
+            <label for="nombreProveedor">Ingrese un proveedor </label> 
+                <input type="text">
+
+            <label for="email">Ingrese un email</label>
+                <input type="email">
+
+            <label for="descripcionDeProducto">Descripcion de producto </label>
+                <input type="text">
+
+            <label for="codigo">Ingrese un codigo </label> 
+                <input type="number">
+
+            <label for="unidadDeMedida"> Unidad de medida </label>
+                <select name="UnidadDeMedida" id="seleccionDeUnidad" required>
+                    <option value="" >--Seleccione una unidad de medida--</option>
+                    <option value="kg">Kg</option>
+                    <option value="unidad">Unidad</option>
+                    <option value="caja">Caja</option>
+                </select>
+
+            <label for="precioALaFecha">Precio a la fecha</label>  <input type="number">
+            <input type="submit" name="enviar" value="Ingresar" class="submitProveedores">
+            
+        </fieldset>
+
+    </form>
+</body>
+</html>
